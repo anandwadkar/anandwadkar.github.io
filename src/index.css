@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900 antialiased selection:bg-indigo-100 selection:text-indigo-900;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-lg;
+}
